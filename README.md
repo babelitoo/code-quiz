@@ -9,7 +9,7 @@ A Java Script built app where users have 60 seconds to complete a 5 question qui
 https://babelitoo.github.io/code-quiz/
 
 ## Demo Pic:
-![]()
+![](code-quiz.png)
 
 ## Table of Contents
 
