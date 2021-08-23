@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   
+    <title>Web Dev Student Quiz</title>
+</head>
+<body>
+    <div id ="container">
+        <section class="grid-container">
+            <div class="centerDisp">
+                <h1 class="welcomeDispAnsArea" id="cardHeading">Question?</h1>
+
+                <h2 id="answerSelect">Select an answer</h2>
+                    <div class="hidden" id="questionContainer">
+                        <button id="answerOne" type="button">placeholder</button>
+                        <button id ="answerTwo" type ="button">placeholder</button>
+                        <button id ="answerThree" type ="button">placeholder</button>
+                        <button id ="answerFour" type ="button">placeholder</button>
+                    </div>
+                <h3 class="hidePosFeedback"  id="posFeedback">Correct Answer!</h3>
+                <h4 class="hideNegFeedback" id="negFeedback">Sorry, wrong answer</h4>
+                <h5 class="" id="startTestContainer">
+                    <button class="clickStartTest" id="startTest">Begin Challenge</button>
+                </h5>
+                <form class="hidden" id="highScoreMgr">
+                    <input type="text" class="form-input w-100" id="high-score-input-blank" name="high-score-input-entry" placeholder="Enter your initials" />
+                    <button class="btn btn-info" name="hsEnter" type="submit">Enter</button>
+                </form>
+                <ul class="hidden" id="high-score-list"></ul>
+                <div class="hidden" id="navEndOfGame">
+                    <button class="endGame" id="reset" type="button">Reset Game</button>
+                    <button class="endGame" id="scoreReset" type="button">Reset Scores</button>
+                </div>
+            </div>
+
+        <div class="msgDisp">
+            <h7 id="showScores">Show High Scores</h7>
+        </div>
+        
+        <div class="timerDisp">
+            <h8 id="timer">Timer</h8>
+        </div>
+      </section>
+    </div>
+  
+    <script src="./script.js"></script>
+
+</body>
+</html>
